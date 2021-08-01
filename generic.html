@@ -12,6 +12,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<style>
+		.alignleft {
+			display: inline;
+			float: left;
+			margin-right: 1.5em;
+			width: 30%;
+		}
+		.alignright {
+			display: inline;
+			float: right;
+			margin-left: 1.5em;
+			width: 40%;
+		}
 		.img-container {
 			text-align: center;
 			display: block;
@@ -172,48 +184,56 @@
 
 					<hr class="major" />
 					<h2>Deliverables</h2>
-					<ol>
-						<b><li>IDEAL SHIFT</li></b>
-						<b><li>Instant FX Conversion</ii></b>
-						<b><li>Price Alert for FX</ii></b>
-						<b><li>Audit Confirmation</ii></b>
-						<b><li>Stop & Recall Payment</ii></b>
-						<b><li>Subsequent Account Opening</ii></b>
-						<b><li>Contextual Marketing</ii></b>
-						<b><li>InvoiceNow</ii></b>
-						<b><li>Trade Integration in Customer Self-Administration</ii></b>
-						<b><li>TRUSPLE backend API</ii></b>
-						<b><li>IDEAL System Migration for Indonesia Onshoring</ii></b>
-						<b><li>Production BAU Fixes</ii></b>
-					</ol>
+						<h3>IDEAL Shift</h3>
+						<p><span class="image left"><img src="images/DBS/dbs1.png" alt="" /></span>IDEAL Shift is a customer facing application for Corporate banking. Unlike the old IDEAL3 application, IDEAL Shift allows customer to create personalized dashboard to suit their daily needs. IDEAL Shift uses the latest Angular technology to create widget-based dashboard.</p>
+						<p><span class="image right"><img src="images/DBS/dbs2.png" alt="" /></span>Angular 8 allows customer to choose what they want to see in their dashboard and gives customer the freedom to rearrange the widgets. Unlike the old IDEAL3 application, the hybrid nature of IDEAL Shift allows "code once for both mobile and desktop" which helps to save time, manpower and more consistent output in both environment.</p>
+						<p></p>
+						<br style="clear:both">
+						<h3>Instant FX Conversion & Price Alert</h3>
+						<p><span class="image right"><img src="images/DBS/dbs3.png" alt="" /></span>Instant FX Conversion allows customer to have a bird eye view of the current foreign exchange rate. They are able to arrange the order of the currency and the top 3 currencies will be shown on the dashboard widget. Customers are also given Tiered rate. This is also a key feature in the HK SME Digibank app as seen in https://www.digfingroup.com/digibanking-hongkong and the volume it has brought to the bank  has reached more than a few hundred million USD.</p>
+						<p><span class="image left"><img src="images/DBS/dbs4.png" alt="" /></span>To compliment the instant FX Conversion capability, the team has also introduced price alert to make the life of FX trader more convenient. They will no longer need to eye on the FX chart with the price alert. The price alert instantaneously alert the customer via Email or push notification when their price is met. The alert has an integrated payment flow which helps to populate the currency pair. When the price alert has expired, it will prompt the customer to recreate the price alert</p>
+						<br style="clear:both">
+						<h3>Contextual Marketing</h3>
+						<p><span class="image left"><img src="images/DBS/dbs7.png" alt="" /></span>Contextual Marketing helps to improve customer experience via presenting personalized advertisement and helpful tips. The campaign banner is shown on the customer dashboard and it can be expanded to show more details.</p>
+						<p><span class="image right"><img src="images/DBS/dbs8.png" alt="" /></span>While the CMP widget can only show one marketing campaign at a time, the promotion notification support the limitation by providing more asset space for the marketing team. There is also a feedback loop in case Customer dislike or show interest to the campaign. These data are utilised to study the customer behavior and in turn show a more relevant campaigns in the future.</p>
+						<br style="clear:both">
+						<h3>Audit Confirmation</h3>
+						<p><span class="image right"><img src="images/DBS/dbs5.png" alt="" /></span><span class="image right"><img src="images/DBS/dbs6.png" alt="" /></span>Audit confirmation is integrated into IDEAL Shift to streamline the process. In the past, companies will have to submit paper forms and look for auditor which can be extremely time-consuming. With this feature, it allows customer to provide authorisation to DBS to confirm their positions and balances to the auditor without any manual intervention. Appeared on https://www.straitstimes.com/business/banking/dbs-makes-audit-confirmation-easier-for-companies-smes-with-digital-solution</p>
+						<br style="clear:both">
+						<h3>InvoiceNow</h3>
+						<p><span class="image left"><img src="images/DBS/dbs9.png" alt="" /></span><span class="image left"><img src="images/DBS/dbs11.png" alt="" /></span></span>InvoiceNow allows organisations to send and recieve invoices easily. I am in charge of the registration portion and also the payment portion in InvoiceNow. Even though InvoiceNow platform is developed by DOXA*, I provided the payment solutions that integrate with IDEAL to give customer a seamless transaction experience. *https://www.businesstimes.com.sg/companies-markets/dbs-doxa-launch-automated-supplier-payments-solution-for-construction-sector</p>
+						<br style="clear:both">
+						<h3>TRUSPLE backend API</h3>
+						<p>TRUSPLE means TRUst made simPLE is an blockchain initiative by the ANT group. My role here is to provide API services to integrate with the ecosystem. More information: https://www.dbs.com.sg/sme/dbs-trusple </p>
+						<br style="clear:both">
+						<h3>Stop & Recall Payment</h3>
+						<p>Stop & Recall Payments allow customer to stop a payment when it is still in process or even recall the payment if it has reached the recipient account. There are times when customer send money to the unintended recipient due to human error or fraud.</p>
+						<br style="clear:both">
+						<h3>Subsequent Account Opening</h3>
+						<p>Subsequent Account Opening allows existing customer to create new account with ease. This functionality allows customer to create new account and copy all the entitlements & signers from existing account.</p>
+						<br style="clear:both">
+						<h3>Trade Entitlement in Customer Self-Administration</h3>
+						<p>Customer Self-Administration allows customer to assign entitilements to themselves if they are admin to the company. This helps to cutdown Ops overhead and processing time, at the same time customers would enjoy more administration power within their own company. My scope includes the addition of the trade entitlement as trade became digitalised.</p>
+						<br style="clear:both">
+						<h3>Production BAU Fixes</h3>
+						<p>Every release is not perfect and there will always be production issues that are not found during UAT testing. My role here is to look at the production jiras, troubleshoot and assign them to my developers. Before deploying them to production, I would have to arrange uat & regression testing resources and determine the scope of BAU fixes.</p>
+						
+					<hr class="major" />
+					<h2>iOS Development for IDEAL3 App</h2>
+					<li>Developed the Periodic Balance & Liquidity Management Pool Balance Alert view on IDEAL3 iOS App in an Agile environment.</li>
+					<li>Programmed in Swift 5 and XCode IDE. Software involved: JIRA, Confluence, BitBucket, SourceTree,Jenkins, HP Fortify, SonarQubes, Nexus, XCode 11.0, Swift 5, Google Firebase</li>
+					<li> Adhere to OWASP secure coding practices to deter exploitations from malicious hackers</li>
 
 					<hr class="major" />
-					<h2>iOS Development</h2>
-					<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque
-						venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim
-						auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque
-						in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar
-						mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque
-						enim turpis, hendrerit.</p>
-
-					<h2>iOS Development</h2>
-					<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque
-						venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim
-						auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque
-						in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar
-						mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque
-						enim turpis, hendrerit.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class
-						aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam
-						tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc
-						ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non,
-						bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus.
-						Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In
-						non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
-					</p>
-
+					<h2>IDEAL System Integration for Indonesia Onshoring</h2>
+					<h3>Role: Project Manager and Tech lead</h3>
+					<li>Designed the application architecture, provided project timeline & HLE, ensuring the deliveries are adhered to DBS standards and processes.
+					<li>Provisioned UAT & PROD servers, public & private traffic managers / load balancers and CI/CD release automation into Indonesia Environment.</li>
+					<li>Progressively migrated the entire IDEAL interfaces (Batch, MQ and Webservices) to ensure regional service is not affected.</li>
+					<li>Responsible for Network, OS, Middleware and Security related matter.</li>
+					<li>Managing key stakeholders: Indonesia legal and compliance, risk, technology, cyber security, business users and testers.</li>
+					<li>Supported UAT and Pre-Production Testing</li>
 				</section>
-
 			</div>
 		</div>
 

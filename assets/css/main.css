@@ -1229,7 +1229,7 @@ input[type="radio"] + label:before {
     border-radius: 0.375em;
     display: block; }
   .image.left, .image.right {
-    max-width: 40%; }
+    max-width: 30%; }
     .image.left img, .image.right img {
       width: 100%; }
   .image.left {
@@ -1453,6 +1453,7 @@ ul.pagination {
 
 table {
   margin: 0 0 2em 0;
+  table-layout: auto;
   width: 100%; }
   table tbody tr {
     border: solid 1px rgba(210, 215, 217, 0.75);
